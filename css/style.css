@@ -1,16 +1,5 @@
-html { overflow: hidden; }
+html {overflow: hidden;}
 body { font-family: 'Open Sans', sans-serif; line-height: .8; font-size: 45px; }
-
-.background {
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
-	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
-	z-index: 0;
-    opacity: 1;
-}
-
 #hint {
     z-index: 9999;
     position: fixed; top: 0; left: 20px;
@@ -95,16 +84,14 @@ blockquote .author {
     -ms-box-sizing:     border-box;
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
-    
-    text-shadow: rgba(0,0,0,.01) 0 0 1px; /* Chrome @font-face anti-aliasing fix */
-}
 
-.impress-enabled .step {
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
     -ms-transition:     opacity 1s;
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
+    
+    text-shadow: rgba(0,0,0,.01) 0 0 1px; /* Chrome @font-face anti-aliasing fix */
 }
 
 .step:not(.active) { opacity: 0.1; }
