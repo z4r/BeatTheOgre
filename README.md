@@ -1,6 +1,6 @@
-This presentation is an introduction to Responsive Web Design built with [impress.js](http://bartaz.github.com/impress.js),.
+This presentation is an introduction to Test Driver Dev built with [impress.js](http://bartaz.github.com/impress.js),.
 
-Copyright (c) 2012 John Polacek
+Copyright (c) 2012 Andrea De Marco
 
 <small>
 MIT License

@@ -66,6 +66,7 @@ blockquote {
     font-weight: 300;
     font-style: italic;
     line-height: 1.4;
+    margin: 5px;
 }
 
 blockquote .author {
@@ -109,51 +110,72 @@ blockquote .author {
 
 /* STEP SPECIFIC STYLES */
 #title {width: 1240px; height: 600px; text-align: left; }
-#title-text1 { font-size: 102px; }
-#title-text2 { font-size: 153px; }
-#title-text3 { font-size: 141px; }
+#title-text1 { font-size: 120px; color: #666;}
+#title-text2 { font-size: 146px; }
+#title-text3 { font-size: 124px; }
 
-#respond-text1 { font-size: 84px; }
-#respond-text2 { font-size: 202px; }
-#respond-text3 { font-size: 77px; }
+#struggle-text1 { font-size: 144px; }
+#struggle-text2 { font-size: 185px; }
+#struggle-text3 { font-size: 71px; }
 
-#ar-adaptive { font-size: 192px; }
-#ar-adaptive-fixed { font-size: 54px; }
-#ar-responsive { font-size: 153px; }
-#ar-responsive-fluid { font-size: 57px; }
+#dt-developer { font-size: 166px; }
+#dt-developer-effort { font-size: 61px; }
+#dt-tester { font-size: 159px; }
+#dt-tester-effort { font-size: 55px; }
 
-#combo-text { font-size: 247px; }
-#combo-or { position: relative; left: -20px; }
-#combo-fluid-fixed div { float: left; text-align: center; }
-#combo-plus { width: 10%; font-size: 100px; }
-#combo-fixed, #combo-fluid { width: 45%; }
-#combo-fluid-fixed div .bold { font-size: 63px; width: 100%; }
-#combo-fluid-fixed div .light { font-size: 50px; width: 100%; }
-#combo-fluid .light { letter-spacing: 3px; }
+#quality-text { font-size: 215px; }
+#quality-or { position: relative; left: -20px; }
+#quality-external-internal div { float: left; text-align: center; }
+#quality-plus { width: 10%; font-size: 100px; }
+#quality-internal, #quality-external { width: 45%; }
+#quality-external-internal div .bold { font-size: 63px; width: 100%; }
+#quality-external-internal div .light { font-size: 50px; width: 100%; }
+#quality-internal .light { letter-spacing: -3px; }
 
-#why-sml { letter-spacing: 19px; font-size: 37px; position: relative; left: 10px; }
-#why-one-site { font-size: 200px; }
-#why-every { font-size: 94px; }
+#issue-go { font-size: 200px; }
+#issue-test { letter-spacing: 19px; font-size: 37px; position: relative; left: 10px; }
 
-#who-real-not { font-size: 36px; padding-bottom: 10px; position: relative; left: 3px; }
-#who-real-real { font-size: 93px; }
-#who-bg { font-size: 91px; }
-#who-bg-desc { font-size: 36px; padding-top: 10px; }
-#who-obama { font-size: 102px; }
-#who-obama-desc { font-size: 20px; padding-top: 10px; }
-#who-greygoose { font-size: 88px; }
-#who-greygoose-desc { font-size: 25px; padding-top: 10px; margin-left: 8px; }
-#who-cac { font-size: 80px; }
-#who-cac-desc { font-size: 35px; padding-top: 10px; }
-#who-more { font-size: 90px; }
-#who-more a { font-size: 60px; }
+#test-1-input { font-size: 42px; padding-top: 10px; }
+#test-1-output { font-size: 40px; padding-top: 10px; }
 
-#when-things div { font-size: 87px; }
-#when-thing1, #when-thing2, #when-thing1, #when-thing1 { position: relative; padding: 0; }
-#when-thing1 { left: 20px; font-size: 124px; }
-#when-thing2 { left: 10px; font-size: 93px; letter-spacing: 0; }
-#when-thing3 { font-size: 120px; }
-#when-thing4 { font-size: 190px; }
+#pattern-1-goal { font-size: 157px; padding-top: 10px; }
+#pattern-1-signature { font-size: 158px; padding-top: 10px; }
+#pattern-1-dates { font-size: 101px; padding-top: 10px; }
+
+#issue-boom { font-size: 157px; }
+#issue-drive { letter-spacing: -4px; font-size: 39px; }
+
+#ogre { font-size: 167px; }
+#ogre-born { letter-spacing: 7px; font-size: 55px; padding-top: 10px;}
+
+#ogre-release { font-size: 94px; }
+
+#new-requirement div { font-size: 96px; }
+
+#cheap-shot { font-size: 103px; }
+
+#trick-known { font-size: 61px; }
+#trick-fail { font-size: 444px; }
+#trick-difficult { font-size: 54px; }
+
+#awful-1 { font-size: 168px; }
+#awful-2 { font-size: 79px; }
+#awful-3 { font-size: 68px; }
+#awful-4 { font-size: 124px; }
+
+#dp-design { font-size: 257px; }
+#dp-pattern { font-size: 184px; }
+
+#fame { font-size: 179px; }
+#new-design-emerges { font-size: 77px; }
+
+#finally-beat-ogre { font-size: 66px; }
+#finally-beat-brick { font-size: 63px; }
+
+#nofear-1 { font-size: 102px; }
+#nofear-2 { font-size: 114px; }
+#nofear-3 { font-size: 216px; }
+
 
 #how-quote blockquote { text-align: center; font-size: 70px; line-height: 1.2; }
 #how-frameworks-text { font-size: 129px; line-height: .9; }
@@ -208,4 +230,91 @@ blockquote .author {
 #credits p { font-style: italic; font-size: 30px; margin: 24px; padding: 0; color: #666; }
 #credits p.first { margin-bottom: 45px; font-size: 40px; }
 #credits a { font-style: italic; font-weight: bold; text-decoration: underline; }
+
+@font-face
+{ font-family:"Source Code Pro";
+  src:url('fonts/SourceCodePro-Regular-webfont.ttf') format('truetype'); }
+
+.pln
+{ color:#bd3613; }
+
+.str
+{ color:#269186; }
+
+.kwd
+{ color:#859900; }
+
+.com
+{ color:#586175;
+  font-style:italic; }
+
+.typ
+{ color:#b58900; }
+
+.lit
+{ color:#2aa198; }
+
+.pun
+{ color:#839496; }
+
+.opn
+{ color:#839496; }
+
+.clo
+{ color:#839496; }
+
+.tag
+{ color:#268bd2; }
+
+.atn
+{ color:#586175; }
+
+.atv
+{ color:#2aa198; }
+
+.dec
+{ color:#268bd2; }
+
+.var
+{ color:#268bd2; }
+
+.fun
+{ color:#F00; }
+
+pre.prettyprint
+{ background-color:#eee;
+  padding:10px;
+  border:1px solid #333;
+  text-align: left;
+  margin: 0; }
+
+pre.small {
+    font-size: 18px;
+}
+
+
+ol.linenums
+{ color:#4c666c; }
+
+ol.linenums li
+{ line-height:18px;
+  padding-left:12px;
+  list-style-type:decimal-leading-zero;
+  color:#cecece; }
+
+ol.linenums li code
+{ padding-left:1em; }
+
+pre
+{ font:0.6em "Source Code Pro"; }
+
+pre code
+{ text-shadow:none; }
+
+pre ol.linenums li
+{ margin-left:0;
+  padding-left:0;
+  font-size:1em;
+  line-height:1.35em;
+  list-style-position:inside; }
 
