@@ -174,56 +174,7 @@ blockquote .author {
 
 #nofear-1 { font-size: 102px; }
 #nofear-2 { font-size: 114px; }
-#nofear-3 { font-size: 216px; }
-
-
-#how-quote blockquote { text-align: center; font-size: 70px; line-height: 1.2; }
-#how-frameworks-text { font-size: 129px; line-height: .9; }
-#how-frameworks span { font-weight: 800; font-size: 45px; display: block; }
-#how-savetime { position: relative; left: 20px; letter-spacing: 40px; font-size: 83px; }
-#how-rollyourown { font-size: 103px; }
-#how-control { position: relative; left: 12px; letter-spacing: 20px; font-size: 68px; }
-#how-best { font-size: 117px; }
-#how-best1 { font-size: 118px; }
-#how-best2 { font-size: 147px; }
-#how-best2-small { font-size: 150px; }
-#how-best3 { font-size: 119px; }
-#how-best3-exit { font-size: 114px; }
-#how-best4 { font-size: 115px; }
-#how-best5 { font-size: 82px; }
-#how-best6 .extralight { letter-spacing: 7px; }
-
-.adj-j { font-size: 88%; position: relative; top: -10px; }
-
-.where-step { width: 1100px; }
-.where-step .extralight { line-height: .9; }
-#where { position: relative; left: -40px; letter-spacing: -10px; }
-
-#where-leaders { font-size: 238px; }
-#where-leader-em { font-size: 99px; }
-#where-leader-lw { font-size: 91px; letter-spacing: 10px; }
-#where-leader-sj { font-size: 108px; letter-spacing: 42px; position: relative; left: 15px; }
-#where-leader-cc { font-size: 95px; letter-spacing: 32px; position: relative; left: 10px; }
-#where-leader-jk { font-size: 102px; letter-spacing: 28px; position: relative; left: 20px; }
-
-#where-learn { font-size: 230px; }
-#where-learn-t { font-size: 143px; }
-#where-learn-ala { font-size: 127px; }
-#where-learn-tp { font-size: 88px; }
-#where-learn-rn { font-size: 89px; }
-
-#where-cool-title { font-size: 160px; }
-#where-cool-b { font-size: 120px; letter-spacing: 30px; position: relative; left: 10px; }
-#where-cool-g { font-size: 114px; letter-spacing: 25px; position: relative; left: 10px; }
-#where-cool-f { font-size: 109px; letter-spacing: 25px; position: relative; left: 10px; }
-#where-cool-s { font-size: 131px; letter-spacing: 41px; position: relative; left: 18px; }
-#where-cool-r { font-size: 120px; letter-spacing: 20px; position: relative; left: 10px; }
-#where-cool-title2 { font-size: 108px; letter-spacing: -3px; position: relative; left: -5px; }
-#where-cool-fit { font-size: 110px; position: relative; left: 5px; }
-#where-cool-fi { font-size: 124px; letter-spacing: 11px; }
-#where-cool-bp { font-size: 108px; }
-#where-cool-sz { font-size: 65px; }
-#where-cool-more a { font-size: 30px; font-style: italic; position: relative; top: -10px; }
+#nofear-3 { font-size: 196px; }
 
 #credits { width: 1200px; padding: 0; }
 #credits .big { font-size: 150px; }
